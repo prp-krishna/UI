@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+    <body>
+    <h1>Calculate distance travelled by light</h1>
+    <div>
+
+    <script>
+        function LightYears(){
+            var a,c;
+            a=Number(document.getElementById("first").value);
+            c= (a*31566000)*300000;
+            document.getElementById("answer").value= c;
+        }
+    </script>
+    
+    <b>Time (in years) : </b><input id="first">
+    
+    <button onclick="LightYears()">calculate</button><br>
+    
+    <input id="answer">km<br><br><br>
+
+    Example : <br>
+
+    Distance traveled by light in 1 Year = 94.6x10<sup>12</sup> km<br>
+
+    <h2>Explained below :</h2>
+
+    Speed of Light = 3x10<sup>8</sup>m/s<br>
+
+    OR 3x10<sup>6</sup>km/sec
+    <br><br>
+
+    Time required for light to cover 94.6x10<sup>12</sup>km (obtained by speed of light x total seconds in 1 year) = 1 Year.<br><br>
+
+    We have formula, <br><br>
+
+    Speed = Distance / Time <br><br>
+
+    Similarly, <br>
+    
+    Distance = Speed x Time and <br><br>
+
+    Time = Distance / Speed<br><br>
+
+    For the concept of light, we can use <br><br>
+
+    c = ly / year <br><br>
+
+    For 1 Light Year (ly)<br><br>
+
+    1ly = c x 1year<br><br>
+    1ly = 94.6x10<sup>12</sup>km<br><br>
+
+    </div>
+    </body>
+</html>
